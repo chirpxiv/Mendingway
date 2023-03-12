@@ -1,0 +1,12 @@
+{
+	"Author": "Chirp",
+	"Name": "Mendingway",
+	"Punchline": "Give Junkingway and Mendingway the respect they deserve!",
+	"Description": "A plugin to give 2 Bnuuys their correct names.",
+	"InternalName": "Mendingway",
+	"AssemblyVersion": "0.1.0.0",
+	"RepoUrl": "",
+	"ApplicableVersion": "any",
+	"DalamudApiLevel": 8,
+	"Tags": []
+}

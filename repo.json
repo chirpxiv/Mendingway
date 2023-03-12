@@ -1,0 +1,23 @@
+[
+	{
+		"Author": "Chirp",
+		"Name": "Mendingway",
+		"InternalName": "Mendingway",
+		"Punchline": "Give Junkingway and Mendingway the respect they deserve!",
+		"Description": "A plugin to give 2 Bnuuys their correct names.",
+		"AssemblyVersion": "0.1.0",
+		"TestingAssemblyVersion": "0.1.0",
+		"RepoUrl": "https://github.com/chirpxiv/Mendingway",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": 8,
+		"Tags": [
+			"chirp",
+			"mendingway",
+			"name",
+			"mender"
+		],
+		"DownloadLinkInstall": "",
+		"DownloadLinkTesting": "",
+		"DownloadLinkUpdate": ""
+	}
+]
