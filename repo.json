@@ -16,8 +16,8 @@
 			"name",
 			"mender"
 		],
-		"DownloadLinkInstall": "",
-		"DownloadLinkTesting": "",
-		"DownloadLinkUpdate": ""
+		"DownloadLinkInstall": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.0/latest.zip",
+		"DownloadLinkTesting": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.0/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.0/latest.zip"
 	}
 ]
