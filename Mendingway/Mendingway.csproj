@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Authors>Chirp</Authors>
     <Version>0.1.0</Version>
-    <Description>Give Junkingway and Mendingway the respect they deserve!</Description>
+    <Description>Give Mendingway and Vendingway the respect they deserve!</Description>
     <Copyright>MIT License</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <RootNamespace>Mendingway</RootNamespace>
