@@ -1,4 +1,6 @@
-﻿using Dalamud.Hooking;
+﻿using System.Collections.Generic;
+
+using Dalamud.Hooking;
 
 using FFXIVClientStructs.FFXIV.Client.UI;
 using FFXIVClientStructs.FFXIV.Client.Game.Character;
@@ -16,18 +18,18 @@ namespace Mendingway {
 		
 		// UpdateNpcName
 
+		private readonly static Dictionary<uint, (string name, string title)> NpcMap = new() {
+			{ 1037791, ("Vendingway", "《Junkmonger》") },
+			{ 1037792, ("Mendingway", "《Mender》") }
+		};
+
 		private unsafe static nint UpdateNpcNameDetour(nint a1, RaptureAtkModule.NamePlateInfo* a2, nint a3, nint a4, Character* a5, int a6, uint a7) {
 			var exec = UpdateNpcNameHook.Original(a1, a2, a3, a4, a5, a6, a7);
-
-			switch (a5->GameObject.DataID) {
-				case 1037791: // Junkmonger
-					a2->Name.SetString("Vendingway");
-					a2->DisplayTitle.SetString("《Junkmonger》");
-					break;
-				case 1037792: // Mender
-					a2->Name.SetString("Mendingway");
-					a2->DisplayTitle.SetString("《Mender》");
-					break;
+			
+			if (a5 != null && NpcMap.TryGetValue(a5->GameObject.DataID, out var values)) {
+				a2->Name.SetString(values.name);
+				a2->Title.SetString(values.title);
+				a2->DisplayTitle.SetString(values.title);
 			}
 
 			return exec;
