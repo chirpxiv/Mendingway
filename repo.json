@@ -5,8 +5,8 @@
 		"InternalName": "Mendingway",
 		"Punchline": "Give Mendingway and Vendingway the respect they deserve!",
 		"Description": "A plugin to give 2 Bnuuys their correct names.",
-		"AssemblyVersion": "0.1.2",
-		"TestingAssemblyVersion": "0.1.2",
+		"AssemblyVersion": "0.1.3",
+		"TestingAssemblyVersion": "0.1.3",
 		"RepoUrl": "https://github.com/chirpxiv/Mendingway",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 8,
@@ -16,8 +16,8 @@
 			"name",
 			"mender"
 		],
-		"DownloadLinkInstall": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.2/latest.zip",
-		"DownloadLinkTesting": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.2/latest.zip",
-		"DownloadLinkUpdate": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.2/latest.zip"
+		"DownloadLinkInstall": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.3/latest.zip",
+		"DownloadLinkTesting": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.3/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/chirpxiv/Mendingway/releases/download/v0.1.3/latest.zip"
 	}
 ]
