@@ -20,7 +20,10 @@ namespace Mendingway {
 
 		private readonly static Dictionary<uint, (string name, string title)> NpcMap = new() {
 			{ 1037791, ("Vendingway", "《Junkmonger》") },
-			{ 1037792, ("Mendingway", "《Mender》") }
+			{ 1037792, ("Mendingway", "《Mender》") },
+			{ 1045243, ("Vendingway", "《Junkmonger》") },
+			{ 1045258, ("Mendingway", "《Mender》") },
+			{ 1045256, ("Supplyingway", "《Material Supplier》") }
 		};
 
 		private unsafe static nint UpdateNpcNameDetour(nint a1, RaptureAtkModule.NamePlateInfo* a2, nint a3, nint a4, Character* a5, int a6, uint a7) {

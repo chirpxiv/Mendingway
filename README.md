@@ -3,6 +3,7 @@
 This plugin renames the following NPCs in Bestways Burrow which do not adhere to the standard loporrit naming scheme:
 - `Mender` to `Mendingway`
 - `Junkmonger` to `Vendingway`
+- `Loporrit Material Supplier` to `Supplyingway`
 
 ## Installation
 
