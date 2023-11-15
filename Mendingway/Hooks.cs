@@ -41,8 +41,7 @@ namespace Mendingway {
 		// Init & Dispose
 		
 		internal unsafe static void Init() {
-			var addr = Services.SigScanner.ScanText(UpdateNpcNameSig);
-			UpdateNpcNameHook = Hook<UpdateNpcNameDelegate>.FromAddress(addr, UpdateNpcNameDetour);
+			UpdateNpcNameHook = Services.Interop.HookFromSignature<UpdateNpcNameDelegate>(UpdateNpcNameSig, UpdateNpcNameDetour);
 			UpdateNpcNameHook.Enable();
 		}
 
